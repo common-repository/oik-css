@@ -1,0 +1,10 @@
+/* oik-geshi/style.scss
+*/
+div.wp-block-oik-css-geshi:not( .has-background ) div.bw_geshi {
+  background-color: #f8f8f8;
+}
+.bw_geshi code {
+  display: block;
+  margin-top: 10px;
+  border-top: 1px solid grey;
+}

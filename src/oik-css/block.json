@@ -1,0 +1,59 @@
+{
+	"apiVersion": 2,
+	"name": "oik-css/css",
+	"title": "CSS",
+	"category": "layout",
+	"icon": "admin-appearance",
+	"description": "Inline CSS",
+	"attributes": {
+		"css": {
+	  		"type": "string"
+		},
+	  "text": {
+		"type": "string"
+	  },
+	  "src": {
+		"type": "string"
+	  },
+		"textAlign": {
+			"type": "string"
+	  	},
+	  	"className": {
+			"type": "string"
+	  	},
+	  	"textColor": {
+			"type": "string"
+	  	},
+	  	"backgroundColor": {
+			"type": "string"
+	  	},
+	  	"style": {
+			"type": "object"
+	  	},
+	  	"fontSize": {
+			"type": "string"
+	  	},
+	  	"gradient": {
+			"type": "string"
+	  	}
+	},
+	"supports": {
+		"html": false,
+		"customClassName": true,
+		"className": true,
+	  "color": {
+		"gradients": true,
+		"text": true,
+		"background": true,
+		"link": true
+	  },
+	  	"typography": {
+			"fontSize": true,
+			"lineHeight": true
+	  	}
+	  },
+    "keywords": [ "CSS", "oik" ],
+	"editorScript": "file:../../build/oik-css.js",
+	"editorStyle": "file:../../build/oik-css.css",
+	"style": "file:../../build/style-oik-css.css"
+}

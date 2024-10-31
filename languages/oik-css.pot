@@ -1,0 +1,417 @@
+# Copyright (C) 2024 bobbingwide
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: oik-css 2.3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/oik-css\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-09-23T15:34:16+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+
+#. Plugin Name of the plugin
+msgid "oik-css"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.oik-plugins.com/oik-plugins/oik-css"
+msgstr ""
+
+#. Description of the plugin
+msgid "Implements CSS and GeSHi blocks for internal CSS styling and to help document source code examples"
+msgstr ""
+
+#. Author of the plugin
+msgid "bobbingwide"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://bobbingwide.com/about-bobbing-wide"
+msgstr ""
+
+#: admin/oik-css.php:4
+msgid "oik-CSS options"
+msgstr ""
+
+#: admin/oik-css.php:10
+msgid "Disable automatic paragraph creation"
+msgstr ""
+
+#: admin/oik-css.php:12
+msgid "Save changes"
+msgstr ""
+
+#: admin/oik-css.php:14
+msgid "To enable automatic paragraph creation use the [bw_autop] shortcode."
+msgstr ""
+
+#: admin/oik-css.php:15
+msgid "To disable automatic paragraph creation use [bw_autop off]."
+msgstr ""
+
+#. translators: opening curly double quote
+#: includes/formatting-later.php:115
+msgctxt "opening curly double quote"
+msgid "&#8220;"
+msgstr ""
+
+#. translators: closing curly double quote
+#: includes/formatting-later.php:117
+msgctxt "closing curly double quote"
+msgid "&#8221;"
+msgstr ""
+
+#. translators: apostrophe, for example in 'cause or can't
+#: includes/formatting-later.php:120
+msgctxt "apostrophe"
+msgid "&#8217;"
+msgstr ""
+
+#. translators: prime, for example in 9' (nine feet)
+#: includes/formatting-later.php:123
+msgctxt "prime"
+msgid "&#8242;"
+msgstr ""
+
+#. translators: double prime, for example in 9" (nine inches)
+#: includes/formatting-later.php:125
+msgctxt "double prime"
+msgid "&#8243;"
+msgstr ""
+
+#. translators: opening curly single quote
+#: includes/formatting-later.php:128
+msgctxt "opening curly single quote"
+msgid "&#8216;"
+msgstr ""
+
+#. translators: closing curly single quote
+#: includes/formatting-later.php:130
+msgctxt "closing curly single quote"
+msgid "&#8217;"
+msgstr ""
+
+#. translators: en dash
+#: includes/formatting-later.php:133
+msgctxt "en dash"
+msgid "&#8211;"
+msgstr ""
+
+#. translators: em dash
+#: includes/formatting-later.php:135
+msgctxt "em dash"
+msgid "&#8212;"
+msgstr ""
+
+#. translators: %s: panel title
+#: libs/class-BW-.php:109
+msgid "Toggle panel: %s"
+msgstr ""
+
+#: libs/oik-depends.php:100
+msgid " version "
+msgstr ""
+
+#. translators: %s: plugin name
+#: libs/oik-depends.php:104
+msgid "Plugin %1$s may not be fully functional."
+msgstr ""
+
+#. translators: %s: plugin dependencies, comma separated
+#: libs/oik-depends.php:108
+#: libs/oik-depends.php:156
+msgid "Please install and activate the required minimum version of this plugin: %1$s"
+msgstr ""
+
+#: libs/oik-depends.php:149
+msgid "version"
+msgstr ""
+
+#. translators: %s: plugin dependencies, comma separated
+#: libs/oik-depends.php:153
+msgid "%1$s may not be fully functional."
+msgstr ""
+
+#. translators: %s: plugin name
+#: libs/oik-depends.php:289
+msgid "Install %1$s"
+msgstr ""
+
+#. translators: %s: plugin name
+#: libs/oik-depends.php:318
+msgid "Activate %1$s"
+msgstr ""
+
+#. translators: %s: plugin name
+#: libs/oik-depends.php:337
+msgid "Upgrade %1$s"
+msgstr ""
+
+#: libs/oik-shortcodes.php:28
+msgid "<b>Unable to locate routine to expand shortcode.</b>"
+msgstr ""
+
+#. translators: %s: function name
+#: libs/oik-shortcodes.php:244
+msgid "missing post processing function: %1$s"
+msgstr ""
+
+#: shortcodes/oik-autop.php:23
+msgid "Dynamically re-enable/disable automatic paragraph generation"
+msgstr ""
+
+#: shortcodes/oik-autop.php:31
+msgid "Re-enable/disable automatic paragraph generation"
+msgstr ""
+
+#: shortcodes/oik-background.php:83
+msgid "No thumbnail"
+msgstr ""
+
+#: shortcodes/oik-background.php:93
+msgid "Use attached image as the background"
+msgstr ""
+
+#: shortcodes/oik-background.php:100
+msgid "current ID"
+msgstr ""
+
+#: shortcodes/oik-background.php:100
+msgid "ID"
+msgstr ""
+
+#: shortcodes/oik-background.php:100
+msgid "Post ID to find image to display"
+msgstr ""
+
+#: shortcodes/oik-background.php:101
+msgid "CSS selector"
+msgstr ""
+
+#: shortcodes/oik-background.php:101
+msgid "CSS selector for the background image"
+msgstr ""
+
+#: shortcodes/oik-background.php:102
+msgid "Image size to use"
+msgstr ""
+
+#: shortcodes/oik-background.php:103
+msgid "post type"
+msgstr ""
+
+#: shortcodes/oik-background.php:103
+msgid "Post type"
+msgstr ""
+
+#: shortcodes/oik-background.php:104
+msgid "post mime type"
+msgstr ""
+
+#: shortcodes/oik-background.php:104
+msgid "Post mime type"
+msgstr ""
+
+#: shortcodes/oik-css.php:165
+msgid "Add internal CSS styling"
+msgstr ""
+
+#: shortcodes/oik-css.php:179
+#: shortcodes/oik-css.php:180
+msgid "any"
+msgstr ""
+
+#: shortcodes/oik-css.php:179
+msgid "Display the CSS"
+msgstr ""
+
+#: shortcodes/oik-css.php:180
+msgid "Display the CSS with this annotation"
+msgstr ""
+
+#: shortcodes/oik-css.php:189
+msgid "When the &lt;code&gt; tag follows a &lt;p&gt; tag use a 14px font and different colours"
+msgstr ""
+
+#: shortcodes/oik-css.php:192
+msgid "Elsewhere display &lt;code&gt; in blue."
+msgstr ""
+
+#: shortcodes/oik-css.php:195
+msgid "Use a parameter to cause the CSS to be shown."
+msgstr ""
+
+#. translators: %1: Hardcoded string lang=, not translatable, %2: language parameter passed
+#: shortcodes/oik-geshi.php:28
+msgid "Invalid %1$s parameter for GeSHi. %2$s"
+msgstr ""
+
+#: shortcodes/oik-geshi.php:108
+msgid "Generic Syntax Highlighting"
+msgstr ""
+
+#: shortcodes/oik-geshi.php:119
+msgid "Programming language"
+msgstr ""
+
+#: shortcodes/oik-geshi.php:120
+msgid "text"
+msgstr ""
+
+#: shortcodes/oik-geshi.php:120
+msgid "Descriptive text to display"
+msgstr ""
+
+#: shortcodes/oik-geshi.php:134
+msgid "Demonstrating the HTML to create a link to oik-plugins.com"
+msgstr ""
+
+#: shortcodes/oik-geshi.php:137
+msgid "Visit oik-plugins.com"
+msgstr ""
+
+#: build/oik-css.js:1
+msgid "This sentence will be very red."
+msgstr ""
+
+#: build/oik-css.js:1
+#: build/oik-geshi.js:1
+msgid "Text"
+msgstr ""
+
+#: build/oik-css.js:1
+#: build/oik-geshi.js:1
+msgid "Source file: ID, URL or path"
+msgstr ""
+
+#: build/oik-css.js:1
+msgid "Write CSS or specify a source file."
+msgstr ""
+
+#: build/oik-geshi.js:1
+msgid "None"
+msgstr ""
+
+#: build/oik-geshi.js:1
+msgid "HTML"
+msgstr ""
+
+#: build/oik-geshi.js:1
+msgid "CSS"
+msgstr ""
+
+#: build/oik-geshi.js:1
+msgid "JavaScript"
+msgstr ""
+
+#: build/oik-geshi.js:1
+msgid "jQuery"
+msgstr ""
+
+#: build/oik-geshi.js:1
+msgid "PHP"
+msgstr ""
+
+#: build/oik-geshi.js:1
+msgid "MySQL"
+msgstr ""
+
+#: build/oik-geshi.js:1
+msgid "WordPress motto"
+msgstr ""
+
+#: build/oik-geshi.js:1
+msgid "echo \"Code is Poetry.\""
+msgstr ""
+
+#: build/oik-geshi.js:1
+msgid "Lang"
+msgstr ""
+
+#: build/oik-geshi.js:1
+msgid "Write code or specify a source file."
+msgstr ""
+
+#: build/oik-css/block.json
+#: src/oik-css/block.json
+msgctxt "block title"
+msgid "CSS"
+msgstr ""
+
+#: build/oik-css/block.json
+#: src/oik-css/block.json
+msgctxt "block description"
+msgid "Inline CSS"
+msgstr ""
+
+#: build/oik-css/block.json
+#: build/oik-geshi/block.json
+#: src/oik-css/block.json
+#: src/oik-geshi/block.json
+msgctxt "block keyword"
+msgid "CSS"
+msgstr ""
+
+#: build/oik-css/block.json
+#: src/oik-css/block.json
+msgctxt "block keyword"
+msgid "oik"
+msgstr ""
+
+#: build/oik-geshi/block.json
+#: src/oik-geshi/block.json
+msgctxt "block title"
+msgid "GeSHi"
+msgstr ""
+
+#: build/oik-geshi/block.json
+#: src/oik-geshi/block.json
+msgctxt "block description"
+msgid "Generic Syntax Highlighting - for code examples"
+msgstr ""
+
+#: build/oik-geshi/block.json
+#: src/oik-geshi/block.json
+msgctxt "block keyword"
+msgid "GeSHi"
+msgstr ""
+
+#: build/oik-geshi/block.json
+#: src/oik-geshi/block.json
+msgctxt "block keyword"
+msgid "syntax"
+msgstr ""
+
+#: build/oik-geshi/block.json
+#: src/oik-geshi/block.json
+msgctxt "block keyword"
+msgid "highlight"
+msgstr ""
+
+#: build/oik-geshi/block.json
+#: src/oik-geshi/block.json
+msgctxt "block keyword"
+msgid "PHP"
+msgstr ""
+
+#: build/oik-geshi/block.json
+#: src/oik-geshi/block.json
+msgctxt "block keyword"
+msgid "HTML"
+msgstr ""
+
+#: build/oik-geshi/block.json
+#: src/oik-geshi/block.json
+msgctxt "block keyword"
+msgid "JavaScript"
+msgstr ""
+
+#: build/oik-geshi/block.json
+#: src/oik-geshi/block.json
+msgctxt "block keyword"
+msgid "MySQL"
+msgstr ""

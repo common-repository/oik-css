@@ -1,0 +1,71 @@
+{
+  "apiVersion": 2,
+  "name": "oik-css/geshi",
+  "title": "GeSHi",
+  "category": "layout",
+  "icon": "editor-code",
+  "description": "Generic Syntax Highlighting - for code examples",
+  "attributes": {
+    "lang": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "src": {
+      "type": "string"
+    },
+    "textAlign": {
+      "type": "string"
+    },
+    "className": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "style": {
+      "type": "object"
+    },
+    "fontSize": {
+      "type": "string"
+    },
+    "gradient": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "html": false,
+    "customClassName": true,
+    "className": true,
+    "color": {
+      "gradients": true,
+      "text": true,
+      "background": true,
+      "link": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true
+    }
+  },
+  "keywords": [
+    "GeSHi",
+    "syntax",
+    "highlight",
+    "PHP",
+    "HTML",
+    "JavaScript",
+    "CSS",
+    "MySQL"
+  ],
+  "editorScript": "file:../../build/oik-geshi.js",
+  "editorStyle": "file:../../build/oik-geshi.css",
+  "style": "file:../../build/style-oik-geshi.css"
+}

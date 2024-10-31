@@ -1,0 +1,266 @@
+== Upgrade Notice ==
+= 2.2.0 =
+Built with latest wp-scripts. Tested with WordPress 6.6.2.
+
+= 2.1.3 =
+Each block has its own entry point. Now supports PHP 8.3.
+
+= 2.1.2 =
+Now supports PHP 8.2
+
+= 2.1.1 =
+Updated to latest wp-scripts. Tested with WordPress 6.3
+
+= 2.1.0 =
+Update for ability to style CSS and GeSHi output in documentation
+
+= 2.0.1 =
+Updated shared libraries and wp-scripts. Tested with WordPress 6.0.1
+
+= 2.0.0 =
+Upgrade to use the CSS and GeSHi blocks in the block widget editor.
+
+= 1.3.0 =
+Upgrade for improvements to the CSS and GeSHi blocks. Now support loading from an attachment or file.
+
+= 1.2.0 =
+Upgrade for PHP 8.0 support.
+
+= 1.1.1 =
+Update for improved compatibility with Gutenberg.
+
+= 1.1.0 =
+Upgrade to resolve a problem when embedding content from WordPress sites.
+
+= 1.0.0 =
+Upgrade to use the CSS and GesHi blocks in the block editor.
+
+= 1.0.0-beta-20200109 =
+Improved version for backward compatibility with oik and uk-tides. Needed on herbmiller.me
+
+= 1.0.0-beta-20200105 =
+Version for testing backward compatibility with oik and uk-tides, both of which now use the oik-shortcodes shared library.
+
+= 1.0.0-beta-20191215 =
+Updates after testing on cwiccer.com
+
+= 1.0.0-alpha-20191214 =
+Now delivers two blocks which are not dependent upon oik.
+
+= 0.9.2 =
+For the GesHi block in oik-blocks accept default lang=none
+
+= 0.9.1 =
+Upgrade for improved compatibility with the Gutenberg plugin.
+
+= 0.9.0 =
+Upgrade for improvements to the [bw_geshi] shortcode. Now depends on oik v3.2.3. Available in US English. Localized in UK English.
+
+= 0.8.2 =
+[bw_geshi] shortcode now supports lang=mysql
+
+= 0.8.1 =
+Tested with WordPress 4.4. Now depends on oik v2.5 or higher
+
+= 0.8.0 =
+Required for oik-plugins use of [bw_geshi none] for documenting oik-bwtrace output
+
+= 0.7 =
+Required for better control over Automatic paragraph creation. Now dependent on oik v2.3 or higher.
+
+= 0.6 =
+Tested with WordPress 3.9 to 4.0, including WPMS
+
+= 0.5 =
+Now dependent upon oik v2.1 or higher. Tested with WordPress 3.9
+
+= 0.4 =
+Tested with WordPress 3.8
+
+= 0.3 =
+Upgrade if you are finding problems with other plugins. e.g. All In One Events Calendar ( [ai1ec] shortcode )
+
+= 0.2 =
+Dependent upon the oik base plugin v2.0 (or higher)
+
+= 0.1 =
+Dependent upon the oik base plugin
+
+== Changelog ==
+= 2.2.0 =
+* Changed: Update wp-scripts to v29.0.0. Add dependency on clsx. #26
+* Tested: With WordPress 6.6.2 and WordPress Multisite
+* Tested: With PHP 8.3
+* Tested: With PHPUnit 9.6
+
+= 2.1.3 =
+* Changed: Support PHP 8.3 #27
+* Changed: Update wp-scripts and rebuild using separate entry points #26
+* Tested: With WordPress 6.5-RC2 and WordPress Multisite
+* Tested: With PHP 8.3
+* Tested: With PHPUnit 9.6
+
+= 2.1.2 =
+* Changed: Support PHP 8.2 #27
+* Tested: With WordPress 6.4-beta3 and WordPress Multisite
+* Tested: With PHP 8.0, PHP 8.1 and PHP 8.2
+* Tested: With PHPUnit 9.6
+
+= 2.1.1 =
+* Changed: Update wp-scripts, rebuild and test with WordPress 6.3 #26
+* Tested: With WordPress 6.3 and WordPress Multi Site
+* Tested: With PHP 8.0
+* Tested: With Gutenberg 16.3.0
+* Tested: With PHPUnit 9
+
+= 2.1.0 =
+* Changed: Implement get_block_wrapper_attributes #16
+* Changed: Adding styling of text,background and font size #16
+* Changed: Updated wp-scripts
+* Tested: With WordPress 6.1.1 and WordPress Multi Site
+* Tested: With PHP 8.0
+* Tested: With Gutenberg 14.5.4
+* Tested: With PHPUnit 9
+
+= 2.0.1 =
+* Deleted: Remove redundant logic and files for oik_css_activation() #18
+* Changed: Updated wp-scripts
+* Changed: Updated shared libraries
+* Tested: With WordPress 6.0.1 and WordPress Multi Site
+* Tested: With PHP 8.0
+* Tested: With Gutenberg 13.8.2
+
+= 2.0.0 =
+* Changed: Refactor to use wp-scripts,[github bobbingwide oik-css issues 16]
+* Tested: With WordPress 5.8 and WordPress Multi Site
+* Tested: With PHP 8.0
+* Tested: With Gutenberg 11.2.0
+
+= 1.3.0 =
+* Added: Add src attribute to CSS and GeSHi blocks.,[github bobbingwide oik-css issues 15]
+* Changed: [bw_css] and [bw_geshi] src parameter is not positional,[github bobbingwide oik-css issues 15]
+* Fixed: Correct bw_geshi__example and its tests.[github bobbingwide oik-css issues 15]
+* Added: Implement class-oik-attachment-contents shared library. Copied from oik-bob-bing-wide.
+* Tested: With WordPress 5.7.2 and WordPress Multi Site
+* Tested: With Gutenberg 10.6
+* Tested: With PHP 8.0
+* Tested: With PHPUnit 9
+
+= 1.2.0 =
+* Changed: Updated for PHP 8.0 support
+* Tested: With WordPress 5.7 and WordPress Multi Site
+* Tested: With Gutenberg 10.2.1
+* Tested: With PHP 8.0 and 7.4
+* Tested: With PHPUnit 9
+
+= 1.1.1 =
+* Fixed: Add surrounding div for improved compatibility with Gutenberg 8.9.2,[github bobbingwide oik-css issues 14]
+* Tested: With WordPress 5.6 and WordPress Multi Site
+* Tested: With PHP 7.4
+* Tested: With PHPUnit 8
+* Tested: With Gutenberg 9.5.2
+
+= 1.1.0 =
+* Changed: Update do_shortcode_earlier to be more like do_shortcode, [github bobbingwide oik-css issues 11]
+* Tested: With WordPress 5.5.1 and WordPress Multi Site
+* Tested: With PHP 7.4
+* Tested: With PHPUnit 8
+
+= 1.0.0 =
+* Changed: Improved transforms from blocks and shortcodes
+* Added: Screenshots for the blocks
+* Changed: Updated tests
+* Changed: Only enable [bw_background] and [bw_autop] when oik is activated
+
+= 1.0.0-beta-20200109 =
+* Fixed: Caters for an old version of oik
+* Changed: Added transforms from core blocks and from CSS to GeSHi
+
+= 1.0.0-beta-20200105 =
+* Added: oik-shortcodes shared library,[github bobbingwide oik-css issues 9]
+* Changed: Support migration from oik-block/css and oik-block/geshi
+* Tested: With WordPress 5.3.2 and WordPress Multi Site
+* Tested: With PHP 7.3 and PHP 7.4
+* Tested: With PHPUnit 8
+
+= 1.0.0-beta-20191215 =
+* Fixed: Fix problems noted on cwiccer.com during standalone testing
+
+= 1.0.0-alpha-20191214 =
+* Added: oik-css/css and oik-css/geshi blocks
+* Added: Shared library logic to reduce dependency on oik
+* Tested: With WordPress 5.3.1 and WordPress Multi Site
+* Tested: With PHP 7.3 and PHP 7.4
+* Tested: With Gutenberg 7.1.0
+
+= 0.9.2 =
+* Changed: [bw_geshi] shortcode; default the lang parameter to none, [github bobbingwide oik-css issues 9]
+
+= 0.9.1 =
+* Changed: removes the gutenberg_wpautop filter hook from the_content [github bobbingwide oik-css issues 9]
+* Tested: With PHP 7.1 and 7.2
+* Tested: With WordPress 4.9.5, 5.0-alpha and WordPress Multisite
+* Tested: With Gutenberg 2.7.0
+
+= 0.9.0 =
+* Changed: Disable GeSHi's keyword linking [github bobbingwide oik-css issues 8]
+* Changed: Update GeSHi to 1.0.9.0 - May 2017 and change to support PHP 7.2 [github bobbingwide oik-css issues 5]
+* Changed; 100% translatble and localizable on WordPress.org [github bobbingwide oik-css issue 6]
+* Fixed: Test bw_better_autop with WordPress 4.7 [github bobbingwide oik-css issues 3]
+* Fixed: [bw_geshi] - do not eliminate p and br tags when lang=html or html5 [github bobbingwide oik-css issues 7]
+* Tested: With PHP 7.2
+* Tested: With WordPress 4.9.1 and WordPress Multisite
+
+= 0.8.2 =
+* Added: Added lang=mysql for [bw_geshi] shortcode [github bobbingwide oik-css issue 1]
+* Changed: Supports PHP 7.0 [github bobbingwide oik-css issue 2]
+* Tested: With WordPress 4.5-RC1
+
+= 0.8.1 =
+* Tested: With WordPress 4.4
+* Changed: Now dependent upon oik v2.5.
+* Changed: Updated oik-activation in line with oik
+
+= 0.8.0 =
+* Added: Add support for [bw_geshi none]
+* Changed: Update bw_better_autop() to work with the bw_css_options[bw_autop] option setting
+* Changed: [bw_background] shortcode default selector set to 'body'
+* Tested: With WordPress 4.3
+
+= 0.7 =
+* Added: oik-CSS section for oik options > Overview to control Automatic paragraph creation
+* Changed: Responds to "oik_loaded" action to invoke the first part of 'better automatic paragraph creation'
+* Changed: Responds to "oik_admin_menu" action
+* Changed: Responds to "oik_menu_box" action to display the new section
+* Changed: Now dependent upon oik v2.3
+* Changed: Styled CSS now wrapped in a div with class bw_css
+* Changed: Styled GeSHi now wrapped in a div with classes bw_geshi and the selected language
+
+= 0.6 =
+* Added: In response to the 'oik_add_shortcodes' action hook the default processing is to disable wpautop() processing.
+* Added: You can partially re-enable wpautop() processing using the [bw_autop true] shortcode.
+* Added: [bw_autop] shortcode - experimental
+* Added: [bw_background] shortcode - experimental
+* Changed: Then you can turn it off again later [bw_autop false]
+* Fixed: Updated bw_remove_unwanted_tags() to cater for ampersands
+
+= 0.5 =
+* Fixed: So that [bw_geshi] works with NextGen gallery installed
+* Tested: With WordPress 3.9-beta3
+* Changed: Dependency logic, now dependent upon oik v2.1
+
+= 0.4 =
+* Tested: With WordPress 3.8
+* Changed: Added support for media=print in addition to media=screen
+
+= 0.3 =
+* Changed: bw_remove_unwanted_tags() now handles the HTML versions of Left single quotation mark and Right single quotation mark.
+* Changed: Replace wpautop() by bw_wpautop(), run after shortcode expansion and remove shortcode_unautop(), no longer necessary
+* Added: bw_wpautop() implement 'the_content' filter using wpautop() without converting newlines to br tags
+
+= 0.2 =
+* Added: [bw_geshi] GeSHi processing, but only providing support for: CSS, jQuery, JavaScript, PHP and HTML5.
+* Added: Help, syntax help and example for [bw_geshi]
+
+= 0.1 =
+* Added: [bw_css] shortcode
